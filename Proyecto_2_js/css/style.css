@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a221f; /* Cambié el valor RGB a un color más oscuro */
+  }
+  
+  .relojito {
+    border: 1rem solid #11d8ad; /* Cambié el valor RGB a un color más claro */
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50vh;
+    font-family: "monospace";
+    font-size: 3rem;
+    color: #11d8ad; /* Cambié el valor RGB a un color más claro */
+    background-color: #222; /* Agregué un fondo oscuro para el reloj */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agregué una sombra suave al reloj */
+    transition: background-color 0.3s; /* Agregué una transición de color suave */
+  }
+  
+  .relojito:hover {
+    background-color: #333; /* Cambio de color al pasar el mouse por encima */
+  }
+  
